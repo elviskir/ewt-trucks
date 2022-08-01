@@ -1,0 +1,113 @@
+/* X-Small devices (below 576px)*/
+@media (max-width: 575px) {
+    div.wp-block-contact-form-7-contact-form-selector {
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    div.trucks-front-page-container {
+       padding-right: 20px;
+       padding-left: 20px;   
+    }
+    div.trucks-front-page-container, .section-xx {
+        padding-bottom: inherit;
+    }
+    div.banner, div.banner-inner {
+        max-height: 340px;
+    }
+    div.bg-image, div.header-bg-image {
+        max-height: 400px;
+    }
+    .avadanta-title a {
+        font-size: 30px;
+    }
+    button.menu-toggle {
+        padding-top: 25px;
+    }
+    div.banner-block, div.has-bg-image {
+        max-height: 250px !important;
+        min-height: 0px !important;
+    }
+    div.section-xx, div.trucks-front-page-container {
+        padding-top: 15px;
+    }
+    footer.section, footer.footer-s1 {
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    footer div.footerImage {
+        margin-left: 75px;
+    }
+    ul#primary-menu {
+        padding-right: 0px !important;
+        padding-bottom: 0px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+    div.trucks-front-page-container {
+        padding-bottom: 0 !important;
+    }
+    div.wp-block-contact-form-7-contact-form-selector {
+        margin-right: 50px;
+    }
+    .container {
+        max-width: 90% !important;
+    }
+    footer div.footerImage {
+        margin-left: 160px;
+    }
+    .footer-widget {
+        padding-bottom: 0px !important;
+    }
+    ul#primary-menu {
+        padding-right: 0px !important;
+        padding-bottom: 0px;
+    }
+    div.section-xx, div.trucks-front-page-container {
+        padding-top: 20px !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    button.menu-toggle {
+        padding-top: 10px;
+    }
+    .avadanta-navigate #primary-menu {
+        padding-right: 0 !important;
+    }
+    div.section-xx, div.trucks-front-page-container {
+        padding-top: 50px;
+    }
+    .footer-widget {
+        padding-bottom: 0px !important;
+    }
+    footer div.footerImage {
+        margin-left: 250px;
+    }
+ }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .avadanta-navigate li {
+        padding-top: 0px !important;
+    }
+    footer.footer-s1, footer.footer {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    footer div.row { 
+        display: block;
+    }
+    footer div.footerImage {
+        margin-left: 350px;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    footer div.footerImage {
+        margin-left: 350px;
+    }
+}
